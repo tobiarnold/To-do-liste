@@ -1,0 +1,84 @@
+body {
+    background-color: deeppink;
+    font-family: "Franklin Gothic Medium", Arial;
+    text-align: center;
+}
+input {
+    position: relative;
+    box-sizing: border-box;
+     font-size: 20px;
+    height: 50px;
+    padding: 10px 15px;
+}
+input[type="text"]{
+    border:none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    width: 300px;
+}
+button{
+    border:none;
+    position: relative;
+    outline: none;
+    border-radius: 0 25px 25px 0;
+    width: 120px;
+    height: 50px;
+     background: #ffc107;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: -10px;
+    transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+	font-weight: normal;
+}
+img {
+     position: relative;
+}
+ul{
+    text-align:left;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+	padding: 15px;
+    background: #808080;
+    border: 2px solid #ffc0cb;
+    border-radius: 5px;
+	margin-bottom: 10px;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+
+}
+li:hover{
+     color: #7f8c8d;
+     background: #ecf0f1;
+}
+li > button {
+    font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+    font-size: 18px;
+}
+footer{
+     text-align: left;
+}
+.done {
+	background: #27ae60 !important;
+    border-color: #27ae60 !important;
+	color: #34495e;
+}
+
+.delete {
+	display: none;
+}
