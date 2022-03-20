@@ -61,7 +61,7 @@ li{
 }
 li:hover{
      color: #7f8c8d;
-     background: #ecf0f1;
+     background: #010203;
 }
 li > button {
     font-weight: normal;
