@@ -47,7 +47,7 @@ ul{
 li{
     list-style: none;
     font-size: 20px;
-    padding: 15px;
+	padding: 15px;
     background: #808080;
     border: 2px solid #ffc0cb;
     border-radius: 5px;
@@ -57,6 +57,7 @@ li{
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
 	-o-transition: all 0.5 ease;
+
 }
 li:hover{
      border-color: purple;
@@ -73,7 +74,7 @@ footer{
 }
 .done {
 	background: #27ae60 !important;
-    	border-color: #27ae60 !important;
+    border-color: #27ae60 !important;
 	color: #000000;
 }
 
