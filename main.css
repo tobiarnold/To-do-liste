@@ -1,7 +1,20 @@
 body {
-    background-color: deeppink;
-    font-family: "Franklin Gothic Medium", Arial;
+    background-image: url("https://raw.githubusercontent.com/tobiarnold/Sachsenheim_Geocache/main/cropped-benjamin-davies-Zm2n2O7Fph4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center;
+    font-family: "Open Sans", Arial;
     text-align: center;
+    color: white;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+h1 span {
+    background-color: #45eb09;
+    border-radius: 5px 5px 5px 5px;
 }
 input {
     position: relative;
@@ -18,6 +31,7 @@ input[type="text"]{
     width: 250px;
 }
 button{
+    
     border:none;
     position: relative;
     outline: none;
@@ -40,44 +54,8 @@ button{
 img {
      position: relative;
 }
-ul{
-    text-align:left;
-    margin-top: 20px;
-}
-li{
-    list-style: none;
-    font-size: 15px;
-	padding: 20px;
-    background: #808080;
-    border: 2px solid #ffc0cb;
-    border-radius: 5px;
-	margin-bottom: 10px;
-	transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5 ease;
 
-}
-li:hover{
-     border-color: purple;
-}
-li > button {
-    font-weight: normal;
-	background: none;
-	border: none;
-	float: right;
-    font-size: 15px;
-}
 footer{
      text-align: left;
 }
-.done {
-	background: #27ae60 !important;
-    border-color: #27ae60 !important;
-	color: #000000;
-}
 
-.delete {
-	display: none;
-}
